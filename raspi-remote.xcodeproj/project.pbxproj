@@ -15,6 +15,20 @@
 		4C362C3A1D36C74C004EBB34 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C362C381D36C74C004EBB34 /* LaunchScreen.storyboard */; };
 		4C362C451D36C74C004EBB34 /* raspi_remoteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C362C441D36C74C004EBB34 /* raspi_remoteTests.swift */; };
 		4C362C501D36C74C004EBB34 /* raspi_remoteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C362C4F1D36C74C004EBB34 /* raspi_remoteUITests.swift */; };
+		4C362C651D36CCAB004EBB34 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C362C5E1D36CCAB004EBB34 /* Alamofire.framework */; };
+		4C362C661D36CCAB004EBB34 /* Freddy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C362C5F1D36CCAB004EBB34 /* Freddy.framework */; };
+		4C362C671D36CCAB004EBB34 /* ObjectMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C362C601D36CCAB004EBB34 /* ObjectMapper.framework */; };
+		4C362C681D36CCAB004EBB34 /* RestKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C362C611D36CCAB004EBB34 /* RestKit.framework */; };
+		4C362C691D36CCAB004EBB34 /* SpeechToTextV1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C362C621D36CCAB004EBB34 /* SpeechToTextV1.framework */; };
+		4C362C6A1D36CCAB004EBB34 /* Starscream.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C362C631D36CCAB004EBB34 /* Starscream.framework */; };
+		4C362C6B1D36CCAB004EBB34 /* TextToSpeechV1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C362C641D36CCAB004EBB34 /* TextToSpeechV1.framework */; };
+		4C362C6D1D36CCEE004EBB34 /* Alamofire.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4C362C5E1D36CCAB004EBB34 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4C362C6E1D36CCEE004EBB34 /* Freddy.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4C362C5F1D36CCAB004EBB34 /* Freddy.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4C362C6F1D36CCEE004EBB34 /* ObjectMapper.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4C362C601D36CCAB004EBB34 /* ObjectMapper.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4C362C701D36CCEE004EBB34 /* RestKit.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4C362C611D36CCAB004EBB34 /* RestKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4C362C711D36CCEE004EBB34 /* SpeechToTextV1.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4C362C621D36CCAB004EBB34 /* SpeechToTextV1.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4C362C721D36CCEE004EBB34 /* Starscream.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4C362C631D36CCAB004EBB34 /* Starscream.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4C362C731D36CCEE004EBB34 /* TextToSpeechV1.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4C362C641D36CCAB004EBB34 /* TextToSpeechV1.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +48,25 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		4C362C6C1D36CCE3004EBB34 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				4C362C6D1D36CCEE004EBB34 /* Alamofire.framework in CopyFiles */,
+				4C362C6E1D36CCEE004EBB34 /* Freddy.framework in CopyFiles */,
+				4C362C6F1D36CCEE004EBB34 /* ObjectMapper.framework in CopyFiles */,
+				4C362C701D36CCEE004EBB34 /* RestKit.framework in CopyFiles */,
+				4C362C711D36CCEE004EBB34 /* SpeechToTextV1.framework in CopyFiles */,
+				4C362C721D36CCEE004EBB34 /* Starscream.framework in CopyFiles */,
+				4C362C731D36CCEE004EBB34 /* TextToSpeechV1.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		4C362C2A1D36C74C004EBB34 /* raspi-remote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "raspi-remote.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C362C2D1D36C74C004EBB34 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +82,13 @@
 		4C362C4B1D36C74C004EBB34 /* raspi-remoteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "raspi-remoteUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C362C4F1D36C74C004EBB34 /* raspi_remoteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = raspi_remoteUITests.swift; sourceTree = "<group>"; };
 		4C362C511D36C74C004EBB34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C362C5E1D36CCAB004EBB34 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		4C362C5F1D36CCAB004EBB34 /* Freddy.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Freddy.framework; path = Carthage/Build/iOS/Freddy.framework; sourceTree = "<group>"; };
+		4C362C601D36CCAB004EBB34 /* ObjectMapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ObjectMapper.framework; path = Carthage/Build/iOS/ObjectMapper.framework; sourceTree = "<group>"; };
+		4C362C611D36CCAB004EBB34 /* RestKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RestKit.framework; path = Carthage/Build/iOS/RestKit.framework; sourceTree = "<group>"; };
+		4C362C621D36CCAB004EBB34 /* SpeechToTextV1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpeechToTextV1.framework; path = Carthage/Build/iOS/SpeechToTextV1.framework; sourceTree = "<group>"; };
+		4C362C631D36CCAB004EBB34 /* Starscream.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Starscream.framework; path = Carthage/Build/iOS/Starscream.framework; sourceTree = "<group>"; };
+		4C362C641D36CCAB004EBB34 /* TextToSpeechV1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TextToSpeechV1.framework; path = Carthage/Build/iOS/TextToSpeechV1.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +96,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C362C671D36CCAB004EBB34 /* ObjectMapper.framework in Frameworks */,
+				4C362C6A1D36CCAB004EBB34 /* Starscream.framework in Frameworks */,
+				4C362C691D36CCAB004EBB34 /* SpeechToTextV1.framework in Frameworks */,
+				4C362C661D36CCAB004EBB34 /* Freddy.framework in Frameworks */,
+				4C362C651D36CCAB004EBB34 /* Alamofire.framework in Frameworks */,
+				4C362C681D36CCAB004EBB34 /* RestKit.framework in Frameworks */,
+				4C362C6B1D36CCAB004EBB34 /* TextToSpeechV1.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +126,7 @@
 		4C362C211D36C74C004EBB34 = {
 			isa = PBXGroup;
 			children = (
+				4C362C5D1D36CC41004EBB34 /* Frameworks */,
 				4C362C2C1D36C74C004EBB34 /* raspi-remote */,
 				4C362C431D36C74C004EBB34 /* raspi-remoteTests */,
 				4C362C4E1D36C74C004EBB34 /* raspi-remoteUITests */,
@@ -128,6 +176,20 @@
 			path = "raspi-remoteUITests";
 			sourceTree = "<group>";
 		};
+		4C362C5D1D36CC41004EBB34 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4C362C5E1D36CCAB004EBB34 /* Alamofire.framework */,
+				4C362C5F1D36CCAB004EBB34 /* Freddy.framework */,
+				4C362C601D36CCAB004EBB34 /* ObjectMapper.framework */,
+				4C362C611D36CCAB004EBB34 /* RestKit.framework */,
+				4C362C621D36CCAB004EBB34 /* SpeechToTextV1.framework */,
+				4C362C631D36CCAB004EBB34 /* Starscream.framework */,
+				4C362C641D36CCAB004EBB34 /* TextToSpeechV1.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,6 +200,7 @@
 				4C362C261D36C74C004EBB34 /* Sources */,
 				4C362C271D36C74C004EBB34 /* Frameworks */,
 				4C362C281D36C74C004EBB34 /* Resources */,
+				4C362C6C1D36CCE3004EBB34 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -403,6 +466,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = "raspi-remote/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "bluekernel.raspi-remote";
@@ -414,6 +481,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = "raspi-remote/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "bluekernel.raspi-remote";
@@ -486,6 +557,7 @@
 				4C362C561D36C74C004EBB34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4C362C571D36C74C004EBB34 /* Build configuration list for PBXNativeTarget "raspi-remoteTests" */ = {
 			isa = XCConfigurationList;
@@ -494,6 +566,7 @@
 				4C362C591D36C74C004EBB34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4C362C5A1D36C74C004EBB34 /* Build configuration list for PBXNativeTarget "raspi-remoteUITests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +575,7 @@
 				4C362C5C1D36C74C004EBB34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
