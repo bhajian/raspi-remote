@@ -29,6 +29,10 @@
 		4C362C711D36CCEE004EBB34 /* SpeechToTextV1.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4C362C621D36CCAB004EBB34 /* SpeechToTextV1.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		4C362C721D36CCEE004EBB34 /* Starscream.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4C362C631D36CCAB004EBB34 /* Starscream.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		4C362C731D36CCEE004EBB34 /* TextToSpeechV1.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4C362C641D36CCAB004EBB34 /* TextToSpeechV1.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4C577E781D383F70000A7A09 /* Icons8-Windows-8-Network-Remote-Control.ico in Resources */ = {isa = PBXBuildFile; fileRef = 4C577E771D383F70000A7A09 /* Icons8-Windows-8-Network-Remote-Control.ico */; };
+		4C577E7A1D3840F6000A7A09 /* 60.ico in Resources */ = {isa = PBXBuildFile; fileRef = 4C577E791D3840F6000A7A09 /* 60.ico */; };
+		4C577E7C1D38413D000A7A09 /* aaa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4C577E7B1D38413D000A7A09 /* aaa.jpg */; };
+		4C577E7E1D384167000A7A09 /* aaa60.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4C577E7D1D384167000A7A09 /* aaa60.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -89,6 +93,10 @@
 		4C362C621D36CCAB004EBB34 /* SpeechToTextV1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpeechToTextV1.framework; path = Carthage/Build/iOS/SpeechToTextV1.framework; sourceTree = "<group>"; };
 		4C362C631D36CCAB004EBB34 /* Starscream.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Starscream.framework; path = Carthage/Build/iOS/Starscream.framework; sourceTree = "<group>"; };
 		4C362C641D36CCAB004EBB34 /* TextToSpeechV1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TextToSpeechV1.framework; path = Carthage/Build/iOS/TextToSpeechV1.framework; sourceTree = "<group>"; };
+		4C577E771D383F70000A7A09 /* Icons8-Windows-8-Network-Remote-Control.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; path = "Icons8-Windows-8-Network-Remote-Control.ico"; sourceTree = "<group>"; };
+		4C577E791D3840F6000A7A09 /* 60.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; path = 60.ico; sourceTree = "<group>"; };
+		4C577E7B1D38413D000A7A09 /* aaa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = aaa.jpg; sourceTree = "<group>"; };
+		4C577E7D1D384167000A7A09 /* aaa60.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = aaa60.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +134,7 @@
 		4C362C211D36C74C004EBB34 = {
 			isa = PBXGroup;
 			children = (
+				4C577E761D383F63000A7A09 /* images */,
 				4C362C5D1D36CC41004EBB34 /* Frameworks */,
 				4C362C2C1D36C74C004EBB34 /* raspi-remote */,
 				4C362C431D36C74C004EBB34 /* raspi-remoteTests */,
@@ -188,6 +197,17 @@
 				4C362C641D36CCAB004EBB34 /* TextToSpeechV1.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4C577E761D383F63000A7A09 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				4C577E7D1D384167000A7A09 /* aaa60.jpg */,
+				4C577E7B1D38413D000A7A09 /* aaa.jpg */,
+				4C577E791D3840F6000A7A09 /* 60.ico */,
+				4C577E771D383F70000A7A09 /* Icons8-Windows-8-Network-Remote-Control.ico */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +279,7 @@
 				TargetAttributes = {
 					4C362C291D36C74C004EBB34 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 888S7T3KWE;
 					};
 					4C362C3F1D36C74C004EBB34 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -295,9 +316,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C577E7A1D3840F6000A7A09 /* 60.ico in Resources */,
 				4C362C3A1D36C74C004EBB34 /* LaunchScreen.storyboard in Resources */,
 				4C362C371D36C74C004EBB34 /* Assets.xcassets in Resources */,
+				4C577E7E1D384167000A7A09 /* aaa60.jpg in Resources */,
+				4C577E7C1D38413D000A7A09 /* aaa.jpg in Resources */,
 				4C362C351D36C74C004EBB34 /* Main.storyboard in Resources */,
+				4C577E781D383F70000A7A09 /* Icons8-Windows-8-Network-Remote-Control.ico in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -466,6 +491,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
@@ -474,6 +501,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "bluekernel.raspi-remote";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -481,6 +509,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
@@ -489,6 +519,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "bluekernel.raspi-remote";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
