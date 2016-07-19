@@ -12,6 +12,7 @@ import AVFoundation
 import SpeechToTextV1
 import Foundation
 
+
 class FirstViewController: UIViewController {
 
     var player: AVAudioPlayer?
@@ -19,7 +20,8 @@ class FirstViewController: UIViewController {
     var recorder: AVAudioRecorder!
     @IBOutlet weak var transcribedLabel: UILabel!
     var session = NSURLSession(configuration: NSURLSessionConfiguration.defaultSessionConfiguration())
-    var baseServiceUrl = "http://behnam.mybluemix.net/"
+    var baseServiceUrl = "http://localhost:3000/"
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -41,6 +43,7 @@ class FirstViewController: UIViewController {
         guard let recorder = recorder else {
             return
         }
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -90,6 +93,18 @@ class FirstViewController: UIViewController {
                         if(command == "stop"){
                             self.stopTouchInside(sender)
                         }
+                        if(command == "camera up"){
+                            self.stopTouchInside(sender)
+                        }
+                        if(command == "camera down"){
+                            self.stopTouchInside(sender)
+                        }
+                        if(command == "camera laft"){
+                            self.stopTouchInside(sender)
+                        }
+                        if(command == "camera right"){
+                            self.stopTouchInside(sender)
+                        }
                     }
                 }
             } catch {}
@@ -124,6 +139,12 @@ class FirstViewController: UIViewController {
     
     @IBAction func leftTouchInside(sender: AnyObject) {
         let request = NSURLRequest(URL: NSURL(string: baseServiceUrl + "car/turnLeft/coarse")!)
+        makeGetRequest(request);
+    }
+    
+    
+    @IBAction func directionStreightTouchInside(sender: AnyObject) {
+        let request = NSURLRequest(URL: NSURL(string: baseServiceUrl + "car/home")!)
         makeGetRequest(request);
     }
     
