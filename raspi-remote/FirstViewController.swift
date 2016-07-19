@@ -20,7 +20,7 @@ class FirstViewController: UIViewController {
     var recorder: AVAudioRecorder!
     @IBOutlet weak var transcribedLabel: UILabel!
     var session = NSURLSession(configuration: NSURLSessionConfiguration.defaultSessionConfiguration())
-    var baseServiceUrl = "http://localhost:3000/"
+    var baseServiceUrl = "http://behnam.mybluemix.net/"
     
     
     override func viewDidLoad() {
